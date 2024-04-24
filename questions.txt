@@ -5,3 +5,12 @@ Bundan sonra while döngüsü ile kullanıcıdan aldığımız inputun 1 veya 0 
 Mesela 1'i seçtiğimiz zaman bize 10 kere eng_words listesinden rastgele olarak bir kelime soroluyor ve bunu bize çevirmemizi istiyor eğer kelimenin tercümesi doğru ise score değişkeni artıyor ve konsola "Harika!" yazdırıyor
 eğer biz yanlış bildiysek bir yanlışlık var diyip kelimenin doğrusunu yazdırıyor
 Mesela 0'ı seçtiysek bizden ingilizce kelime ve türkçe kelime olmak üzere 2 tane input alıyor ve bunların içinde bulunan harfler 0'dan büyükse eng_words listesine seçtiğimiz ingilizce kelimeyi,tr_words listesinede seçtiğimiz türkçe kelimeyi ekliyor ve kelime eklendi mesajını veriyor
+
+Projede hangi değişkenler kullanılıyor ve neden?
+eng_words ve tr_words kelimelerin sırasıyla ingilizce ve türkçe karşılığını içerdiği birer liste ve bunların kontrol amacı kullanıcıdan input alırken bunlar üzerinden kontrol edebilmemizi sağlar
+score:bu değişken bizim score muzu belirler ve her doğru translate ettiğimizde bu değişken artar
+mod:bu bizim ne yapacağımızı girdi olarak alır(1 veya 0)
+for döngüsü içindeki number:bu ingilizce kelimeler(eng_words) listesinden bir eleman seçmek için rastgele gelen(0 ve eng_words'ün uzunluğu-1) bir indextir
+
+Bu programda ne tür bir döngü kullanılıyor ve neden?
+Bu programda for döngüsü kullanılmaktadır ve içindeki kodları 10 kere çalıştırmak amacıyla kullanılmıştır 
